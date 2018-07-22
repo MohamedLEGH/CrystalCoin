@@ -7,11 +7,15 @@ Mini blockchain implementer un crystal lang
 Need crystal lang installed
 
 git clone
+
 cd crystal_coin
+
+shards install
 
 crystal build src/server.cr --release
 
 ./server
+
 ./server -p 3001 to specifie port number
 
 ## Usage
