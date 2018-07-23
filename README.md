@@ -1,10 +1,11 @@
 # crystal_coin
 
-Mini blockchain implementer un crystal lang
+Mini blockchain implemented in crystal language
 
 ## Installation
 
-Need crystal lang installed
+Need crystal language installed
+https://crystal-lang.org/docs/installation/
 
 git clone
 
@@ -14,11 +15,14 @@ shards install
 
 crystal build src/server.cr --release
 
-./server
-
-./server -p 3001 to specifie port number
-
 ## Usage
+
+
+1) On 1 terminal do : ./server 
+
+2) On 1 terminal do : ./server -p 3001 
+
+3) On 1 terminal do :
 
 curl -X POST http://0.0.0.0:3000/nodes/register -H "Content-Type: application/json" -d '{"nodes": ["http://0.0.0.0:3001"]}'
 
